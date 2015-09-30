@@ -10,16 +10,6 @@
 			<a class="navbar-brand" href="<?php echo $site->url() ?>"><img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" /></a>
 		</div>
 	    <div id="navbar" class="collapse navbar-collapse">
-	    	<ul class="nav navbar-nav numbers">
-	    		<?php $counter = 1 ?>
-	    		<?php foreach (page('diaries')->children() as $d) : ?>
-	    			<li><a href="<?php echo $d->url() ?>"><?php echo $counter ?></a></li>
-	    			<?php $counter++ ?>
-		    	<?php endforeach ?>
-		    	<?php for ($i = $counter; $i<= 7; $i++) : ?>
-		    		<li><a href="#"><?php echo $i ?></a></li>
-		    	<?php endfor ?>
-	    	</ul>
 
 			<ul class="nav navbar-nav navbar-right">
 		    <?php foreach($pages->visible() as $p): ?>

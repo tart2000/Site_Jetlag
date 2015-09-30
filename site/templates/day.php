@@ -1,5 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
+<?php snippet('numbers') ?>
 
 	<div class="banners">
 		<!-- banners -->
