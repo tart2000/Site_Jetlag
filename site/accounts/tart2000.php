@@ -7,6 +7,7 @@ password: >
 language: en
 role: admin
 history:
+  - diaries/day-1
   - diaries/day-1/mx
   - diaries/day-1/mtl
   - teams/montreal

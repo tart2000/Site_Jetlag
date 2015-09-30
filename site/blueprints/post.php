@@ -15,11 +15,6 @@ fields:
       montreal : Montreal 
       mexico : Mexico
     width: 1/2
-  date:
-    label: Datum
-    type: date
-    default: today
-    width: 1/2
   coverimage:
     label: Cover Image
     type:  selector
