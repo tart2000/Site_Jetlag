@@ -1,13 +1,23 @@
-Title: Project A
+Title: Arrival in Mexico !
 
 ----
 
-Year: 2014
+Text: 
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+
+(image: green.jpg)
+
+Beard jean shorts wayfarers craft beer, artisan pork belly raw denim four loko hoodie fingerstache meditation synth +1. Taxidermy retro messenger bag, squid food truck Williamsburg kale chips artisan cred bespoke art party roof party single-origin coffee pop-up. Trust fund lumbersexual sriracha, XOXO hella plaid 90's PBR.
 
 ----
 
-Tags: outdoor
+Author: montreal
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Date: 2015-09-30
+
+----
+
+Coverimage: forrest.jpg

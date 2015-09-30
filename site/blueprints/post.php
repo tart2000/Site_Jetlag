@@ -8,29 +8,24 @@ fields:
   title:
     label: Title
     type:  text
+  author:
+    label: Team from...
+    type: select
+    options:
+      montreal : Montreal 
+      mexico : Mexico
+    width: 1/2
   date:
     label: Datum
     type: date
     default: today
     width: 1/2
-  author:
-    label: Author
-    type: user
-    width: 1/2
   coverimage:
-    label: Coverimage
-    type: select
-    options: images
-  category:
-    label: Categories
-    type: checkboxes
-    options: query
-    query:
-	    page: categories
-  tags:
-    label: Tags
-    type: tags
-    lowercase: true
+    label: Cover Image
+    type:  selector
+    mode:  single
+    types:
+      - image
   text:
     label: Text
     type: textarea
