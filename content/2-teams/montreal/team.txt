@@ -1,16 +1,13 @@
-Title: About
+Title: Fred & Michelle
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+From: Montreal
 
-## Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+----
 
-(image: about.jpg)
+Coverimage: Happy-Couple-In-Love.jpg
 
-### Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+----
 
-#### Lorem Ipsum
-In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+Text: Cliche you probably haven't heard of them pop-up, messenger bag asymmetrical YOLO health goth readymade. Pop-up four dollar toast umami, art party scenester single-origin coffee DIY 3 wolf moon skateboard 8-bit authentic. Four loko tilde meggings, single-origin coffee cornhole scenester Helvetica. Cred bespoke cornhole small batch kogi Marfa gluten-free, heirloom Blue Bottle keffiyeh Neutra. Four loko Shoreditch keffiyeh deep v aesthetic occupy, gluten-free Banksy seitan synth cardigan tote bag ugh biodiesel. Aesthetic sustainable seitan sriracha VHS, you probably haven't heard of them Marfa. Occupy next level health goth YOLO keffiyeh actually.

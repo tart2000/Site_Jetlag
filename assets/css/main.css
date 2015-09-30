@@ -40,7 +40,9 @@ html, body {height: 100%;}
 	-o-background-size: cover;
 	background-size: cover;
 }
-
+.thumb-image img {
+	border-radius: 50%;
+}
 
 
 
