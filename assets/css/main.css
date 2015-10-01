@@ -25,17 +25,21 @@ html, body {height: 100%;}
 	margin-bottom: 0px;
 }
 .navbar-default {
-	background-color: white;
+	background-color: transparent;
 	border: none;
 }
 .navbar-nav>li>a {
 	padding-top: 55px;
 	padding-bottom: 35px;
 }
+.navbar-brand>img {
+    max-height: 80px;
+}
 .numbers {
 	position: absolute;
-	top: 59px;
+	top: 70px;
 	width: 100%;
+	pointer-events:none;
 }
 .number {
 	display: inline-block;
@@ -46,11 +50,12 @@ html, body {height: 100%;}
 	margin-right: 8px;
 	width: 12px;
 	height: 12px;
+	pointer-events: all;
 }
 .number:hover {
 	transform: scale(3,3);
 	-webkit-transition: -webkit-transform 0.5s; 
-	transition: transform 0.5s;
+	transition: transform 0.5s; 
 }
 .line {
 	width: 195px;
@@ -95,6 +100,9 @@ html, body {height: 100%;}
 	width: 100%;
 	height: 300px;
 	position: relative;
+}
+.content {
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
 .banner {
@@ -119,7 +127,20 @@ html, body {height: 100%;}
 	top: 0px;
 	padding-top: 100px;
 }
-
+.coming {
+	width: 100%;
+	background: url(../images/default.jpg) no-repeat center center;
+	background-color: #A55C5C; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 300px;
+	background-blend-mode: screen;
+	text-align: center;
+	padding-top: 110px;
+	cursor: default;
+}
 
 
 

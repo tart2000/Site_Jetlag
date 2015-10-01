@@ -13,7 +13,7 @@
 						style="background-color:#efefef"
 					<?php endif ?>
 					>
-					<span>
+					<span>	
 					</span>
 				</div>
 			<?php if ($d->isVisible()) : ?>
