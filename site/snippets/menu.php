@@ -7,7 +7,13 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="<?php echo $site->url() ?>"><img src="<?php echo url('assets/images/jet.png') ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" /></a>
+			<a class="navbar-brand" href="<?php echo $site->url() ?>">
+				<?php if ($page->isHomepage()) : ?>
+
+				<?php else : ?>
+					<img src="<?php echo url('assets/images/jet.png') ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" />
+				<?php endif ?>
+			</a>
 		</div>
 	    <div id="navbar" class="collapse navbar-collapse">
 

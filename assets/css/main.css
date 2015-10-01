@@ -28,6 +28,9 @@ html, body {height: 100%;}
 	background-color: transparent;
 	border: none;
 }
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
 .navbar-nav>li>a {
 	padding-top: 55px;
 	padding-bottom: 35px;
@@ -82,7 +85,6 @@ html, body {height: 100%;}
 #home {
 	overflow: auto;
 	height: 100%;
-	margin-bottom: -140px;
 	background: url('../images/bg.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -126,6 +128,7 @@ html, body {height: 100%;}
 	position: absolute;
 	top: 0px;
 	padding-top: 100px;
+	color: black; 
 }
 .coming {
 	width: 100%;
@@ -163,7 +166,12 @@ html, body {height: 100%;}
 .h-num span {
 	position: relative; 
 	left: 20px;
-	top: 6px;
+	top: 7px;
+}
+.h-num:hover {
+	transform: scale(1.5,1.5);
+	-webkit-transition: -webkit-transform 0.5s; 
+	transition: transform 0.5s; 
 }
 .h-line {
 	border-top: 1px black solid; 
@@ -173,7 +181,6 @@ html, body {height: 100%;}
 	margin-right: 20px;
 	z-index: 1;
 }
-
 
 
 

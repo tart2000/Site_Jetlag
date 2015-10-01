@@ -1,8 +1,11 @@
 <?php snippet('header') ?>
 
 <div id="home">
+	<?php snippet('menu') ?>
+	<div class="center">
+		<h1>MTL ⇄ MX</h1>
+	</div>
 
-	<h1>JETLAG DIARIES LOGO</h1>
 	<div class="container">
 		<div class="h-nums">
 			<div class="h-line"></div>
