@@ -6,7 +6,7 @@
 				<div class="row">
 					<div class="col-sm-3 ">
 						<a href="<?php echo $site->url() ?>">
-							<img src="<?php echo $site->url() ?>/assets/images/jetb.jpg" class="img-responsive">					
+							<img src="<?php echo $site->url() ?>/assets/images/LOGO_Footer.png" class="img-responsive">					
 						</a>
 					</div>
 					<div class="col-sm-3">

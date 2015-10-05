@@ -6,4 +6,4 @@ Date: 2015-09-30
 
 ----
 
-Thecolor: #ff08ce
+Thecolor: #de6a25

@@ -10,8 +10,10 @@
 			<a class="navbar-brand" href="<?php echo $site->url() ?>">
 				<?php if ($page->isHomepage()) : ?>
 
+				<?php elseif ($page->template() == 'day') : ?>
+					<img src="<?php echo $page->images()->first()->url() ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" />
 				<?php else : ?>
-					<img src="<?php echo url('assets/images/jet.png') ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" />
+					<img src="<?php echo url('assets/images/LOGO_noir.png') ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" />
 				<?php endif ?>
 			</a>
 		</div>
