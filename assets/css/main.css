@@ -250,3 +250,22 @@ body {
     margin-right: 20px;
     z-index: 1;
 }
+#rotate{
+	display: none;
+}
+.noLandscape #rotate {
+	position : fixed;
+	display : inherit;
+	top : 0;
+	left : 0;
+	right : 0;
+	bottom : 0;
+	background: black;
+	z-index: 10000;
+	text-align: center;
+	color : white;
+}
+#rotate .fa{
+	font-size: 110px;
+	line-height: 340px;
+}
