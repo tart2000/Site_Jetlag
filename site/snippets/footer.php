@@ -15,8 +15,8 @@
 						<?php endforeach ?>
 					</div>
 					<div class="col-sm-6 text-right">
-						<p>A project by Techno Culture Club</p>
-						<p>Design by Glasgow</p>
+						<p>A project by <a href="http://technoculture.club" target="_blank">Techno Culture Club</a></p>
+						<p>Design by <a href="http://www.glasgowstudio.com/" target="_blank">Glasgow Studio</a></p>
 					</div>
 				</div>
  	 		</div>

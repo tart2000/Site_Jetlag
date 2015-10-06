@@ -10,7 +10,7 @@
 				  	$active = " active";
 				  }
 			?>
-				<a href="<?php echo $d->url() ?>" class="number<?php echo $active; ?>" data-link="/<?php echo $d->id() ?>"
+				<a href="<?php e($d->isVisible(),$d->url(), '#')  ?>" class="number<?php echo $active; ?>" data-link="/<?php echo $d->id() ?>"
 					<?php if ($d->isVisible()) : ?>
 						style="background-color:<?php echo $d->thecolor() ?>"
 					<?php else : ?>	
