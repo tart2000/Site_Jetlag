@@ -14,8 +14,8 @@
     		<?php if ($post->author() != '') : ?>
     			<?php $uid = $post->author(); ?>
     			<?php $team = page('teams')->children()->find($uid); ?>
-				<span style="color:<?php echo $page->thecolor() ?>">From <?php echo $team->from() ?></span></br>
-				<strong><?php echo $team->title() ?></strong>
+				<span class="from" style="color:<?php echo $page->thecolor() ?>">From <?php echo $team->from() ?></span></br>
+				<h2><?php echo $team->title() ?></h2>
 				<?php $thecover = $team->coverimage()->toFile(); ?>
 				<div class="thumb-image">
 					<a href="<?php echo $site->url() ?>/teams"><?php echo thumb($thecover, array('width' => 150, 'height' => 150, 'crop' => true)); ?></a>

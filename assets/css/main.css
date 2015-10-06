@@ -2,11 +2,33 @@
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: regular;
+    src: url(../fonts/GTWalsheimRegular.otf);
+}
+@font-face {
+    font-family: boldish;
+    src: url(../fonts/GTWalsheimBold.otf);
+}
+@font-face {
+    font-family: mediumish;
+    src: url(../fonts/GTWalsheimMedium.otf);
+}
+
 html,
 body {
     height: 100%;
+    font-family: regular;
 }
-
+h1 {
+    font-size: 54px;
+}
+h2 {
+    font-family: boldish;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
 .right {
     text-align: right;
 }
@@ -14,7 +36,9 @@ body {
 .center {
     text-align: center;
 }
-
+.mt {
+    margin-top: 30px;
+}
 
 /* Navbar */
 
@@ -40,6 +64,7 @@ body {
 
 .navbar-default .navbar-nav>li>a {
     color: #000;
+    text-transform: lowercase;
 }
 
 .navbar-nav>li>a {
@@ -254,7 +279,9 @@ body {
     margin-right: 20px;
     z-index: 1;
 }
-#rotate{
+.from {
+    text-transform: uppercase;
+}#rotate{
 	display: none;
 }
 .noLandscape #rotate {
