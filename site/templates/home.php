@@ -12,7 +12,11 @@
 			<?php foreach (page('diaries')->children() as $day) : ?>
 				<a href="<?php e($day->isVisible(),$day->url()) ?>">
 					<div class="h-num" style="background-color: <?php e($day->isVisible(), $day->thecolor(), '#c6c6c6')  ?>">
-						<span><?php e($day->isVisible(), $day->num(), '<i class="fa fa-lock"></i>') ?></span>
+						<?php if ($day->isVisible()) : ?>
+							<span><?php echo $day->num() ?></span>
+						<?php else : ?>
+							<span class="fa fa-lock"></span>
+						<?php endif ?>
 					</div>
 				</a>
 			<?php endforeach ?>
