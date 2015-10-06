@@ -24,6 +24,7 @@
 <body>
   <div id="rotate">
     <i class="fa fa-repeat"></i>
+    <div class="text">Ce site nécessite d'être en mode Paysage</div>
   </div>
 	<!--[if lt IE 8]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

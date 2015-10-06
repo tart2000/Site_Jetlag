@@ -50,15 +50,13 @@ body {
 .navbar-brand>img {
     max-height: 80px;
 }
-<<<<<<< HEAD
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: white;
 	font-weight: 800;
 	color: black;
 }
-=======
 
->>>>>>> origin/master
 .numbers {
     position: absolute;
     top: 70px;
@@ -87,7 +85,7 @@ body {
     top: 0;
     left: 0;
     /*background-color: rgba(255, 0, 0, 0.15);*/
-    width: 13px;
+    width: 12px;
     line-height: 13px;
     /*text-align: center;*/
 }
@@ -234,7 +232,7 @@ body {
 .h-num span {
     position: relative;
     padding : 8px 20px;
-    left: 21px;
+    left: 2px;
     top: 8px;
 }
 
@@ -270,8 +268,10 @@ body {
 	z-index: 10000;
 	text-align: center;
 	color : white;
+	font-size : 24px;
+	padding : 30px;
 }
 #rotate .fa{
 	font-size: 110px;
-	line-height: 340px;
+	margin : 100px 0 20px 0;
 }
