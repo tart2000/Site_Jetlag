@@ -50,7 +50,15 @@ body {
 .navbar-brand>img {
     max-height: 80px;
 }
+<<<<<<< HEAD
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: white;
+	font-weight: 800;
+	color: black;
+}
+=======
 
+>>>>>>> origin/master
 .numbers {
     position: absolute;
     top: 70px;
@@ -219,15 +227,13 @@ body {
     border-radius: 50%;
     position: relative;
     z-index: 3;
-    /*transition: all 0.5s ease-in-out;*/
-    /*-webkit-transition: all 0.5s ease-in-out;*/
     transition: all 0.5s ease-in-out;
     -webkti-transition: all 0.5s ease-in-out;
 }
 
 .h-num span {
     position: relative;
-    /*padding : 8px 20px;*/
+    padding : 8px 20px;
     left: 21px;
     top: 8px;
 }

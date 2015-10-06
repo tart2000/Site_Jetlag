@@ -13,6 +13,7 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="<?php echo $site->url() ?>/assets/images/favicon.ico">
 
   <?php echo css('assets/css/bootstrap.min.css') ?>
   <?php echo css('assets/css/main.css') ?>
