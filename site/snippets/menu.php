@@ -8,6 +8,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="<?php echo $site->url() ?>">
+				<!-- check pour trouver le bon logo -->
 				<?php if ($page->isHomepage()) : ?>
 
 				<?php elseif ($page->template() == 'day') : ?>

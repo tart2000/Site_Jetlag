@@ -38,6 +38,11 @@ html, body {height: 100%;}
 .navbar-brand>img {
     max-height: 80px;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: white;
+	font-weight: 800;
+	color: black;
+}
 .numbers {
 	position: absolute;
 	top: 70px;
