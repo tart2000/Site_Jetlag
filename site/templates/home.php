@@ -19,9 +19,11 @@
 
 		</div>
 	</div>
-	<div class="center">
-		<h1>MTL ⇄ MX</h1>
-	</div>
+	<?php if (!page('diaries')->hasVisibleChildren()) : ?>
+		<div class="center">
+			<h1>Coming november 1st</h1>
+		</div>
+	<?php endif ?>
 </div>
 
 <?php snippet('footer') ?>

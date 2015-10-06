@@ -78,7 +78,7 @@ h2 {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: white;
-	font-weight: 800;
+	font-family: boldish;
 	color: black;
 }
 
@@ -246,12 +246,15 @@ h2 {
     padding-top: 110px;
     cursor: default;
 }
-
+#home h1 {
+    color: white;
+}
 .h-nums {
     margin-left: auto;
     margin-right: auto;
     display: table;
     max-width: 100%;
+    margin-top: 30px;
 }
 
 .h-num {
@@ -318,4 +321,13 @@ h2 {
 #rotate .fa{
 	font-size: 110px;
 	margin : 100px 0 20px 0;
+}
+#about {
+    background-color: #e7e7e7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#about img {
+    padding-top: 15px;
+
 }

@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - about
   - diaries/day-3
   - diaries/day-2/mtl
   - diaries/day-2/mx
   - diaries/day-2
-  - diaries/day-1
