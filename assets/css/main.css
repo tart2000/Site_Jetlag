@@ -93,7 +93,7 @@ h2 {
     display: inline-block;
     border-radius: 50%;
     /*border: 0.02vw black solid;*/
-    padding: 4px;
+    /*padding: 4px;*/
     margin-left: 8px;
     margin-right: 8px;
     width: 12px;
@@ -101,18 +101,35 @@ h2 {
     pointer-events: all;
     transition: all 0.5s ease-in-out;
     -webkti-transition: all 0.5s ease-in-out;
+    color : white;
+    font-size : 12px;
+    text-decoration: none
+}
+.number:hover{
+	text-decoration: none;
+}
+.day{
+    /*color: white;*/
+    /*font-size: 8px;*/
+    position: relative;
+    /*top: 0;*/
+    /*right: 3px;*/
+    /*background-color: rgba(255, 0, 0, 0.15);*/
+    /*width: 12px;*/
+    /*line-height: 13px;*/
+    /*text-align: center;	*/
+    top : -4.5px;
+    font-size : 8px;
+    color : white;
+    display: none;
 }
 
-.day{
-    color: white;
-    font-size: 8px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    /*background-color: rgba(255, 0, 0, 0.15);*/
-    width: 12px;
-    line-height: 13px;
-    /*text-align: center;*/
+.number.active .day{
+	display: inline-block;
+}
+
+.number:hover .day{
+	display: inline-block;
 }
 
 .number:hover {

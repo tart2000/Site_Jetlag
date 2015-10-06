@@ -4,14 +4,13 @@
 		<?php $counter = 1 ?>
 		<?php foreach (page('diaries')->children() as $d) : ?>
 			<?php if ($d->isVisible()) : ?>
-			<a href="<?php echo $d->url() ?>">
 			<?php endif ?>
 			<?php $active = "";
 				  if($page->uri() == $d->id()){
 				  	$active = " active";
 				  }
 			?>
-				<div class="number<?php echo $active; ?>" data-link="/<?php echo $d->id() ?>"
+				<a href="<?php echo $d->url() ?>" class="number<?php echo $active; ?>" data-link="/<?php echo $d->id() ?>"
 					<?php if ($d->isVisible()) : ?>
 						style="background-color:<?php echo $d->thecolor() ?>"
 					<?php else : ?>	
@@ -19,9 +18,8 @@
 					<?php endif ?>
 					>
 					<span class="day"><?php e($d->isVisible(), $d->num(), '<i class="fa fa-lock"></i>') ?></span>
-				</div>
+				</a>
 			<?php if ($d->isVisible()) : ?>
-			</a>
 			<?php endif ?>
 			<?php $counter++ ?>
 		<?php endforeach ?>
