@@ -19,7 +19,7 @@
   <?php echo css('assets/css/main.css') ?>
   
   <?php echo js('assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') ?>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
 	<!--[if lt IE 8]>

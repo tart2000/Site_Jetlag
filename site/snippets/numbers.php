@@ -1,4 +1,4 @@
-<div class="numbers">
+<div class="numbers" >
 	<div class="center">
 		<div class="line"></div>
 		<?php $counter = 1 ?>
@@ -6,15 +6,19 @@
 			<?php if ($d->isVisible()) : ?>
 			<a href="<?php echo $d->url() ?>">
 			<?php endif ?>
-				<div class="number" 
+			<?php $active = "";
+				  if($page->uri() == $d->id()){
+				  	$active = " active";
+				  }
+			?>
+				<div class="number<?php echo $active; ?>" data-link="/<?php echo $d->id() ?>"
 					<?php if ($d->isVisible()) : ?>
 						style="background-color:<?php echo $d->thecolor() ?>"
 					<?php else : ?>	
 						style="background-color:#efefef"
 					<?php endif ?>
 					>
-					<span>	
-					</span>
+					<span class="day"><?php e($d->isVisible(), $d->num(), '<i class="fa fa-lock"></i>') ?></span>
 				</div>
 			<?php if ($d->isVisible()) : ?>
 			</a>
