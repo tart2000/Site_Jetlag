@@ -2,7 +2,7 @@
 
 title: Day
 pages: post
-files: false
+files: true
 fields:
   title:
     label: Title
@@ -16,3 +16,19 @@ fields:
   	label: Color
   	type: color
   	width: 1/2
+  mtlcover:
+    label: Team from Montreal - cover image
+    type: selector
+    mode:  single
+    types:
+      - image
+    width: 1/2
+  mxcover: 
+    label: Team from Mexico - cover image
+    type: selector
+    mode:  single
+    types:
+      - image
+    width: 1/2
+
+

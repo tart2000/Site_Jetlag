@@ -1,0 +1,24 @@
+Title: how-to
+
+----
+
+Text: 
+
+## Styling your post 
+You can use Markdown to style your posts. 
+If you're not familiar with markdown, please have a look here : 
+(link: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet text: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+## Adding images 
+Images can be added using the left-hand side panel. 
+Once they're uploaded on the website, you can drag and drop the image where you want them in your post. 
+You can also write : 
+(image: image.png)
+Please don't use images larger than 1800px. 
+
+## About posts
+
+- You can write as many posts per day as you want
+- Posts have to be written in a 'day' folder
+- Make sure the language of the post is set to English (even if it isn't, as it's the default language for the site)
+- Please add a cover image to your 'day'

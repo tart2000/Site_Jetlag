@@ -12,7 +12,7 @@
 				<?php if ($page->isHomepage()) : ?>
 
 				<?php elseif ($page->template() == 'day') : ?>
-					<img src="<?php echo $page->images()->first()->url() ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" />
+					<img src="<?php echo $site->url().'/assets/images/LOGO_0'.$page->num().'.png' ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" />
 				<?php else : ?>
 					<img src="<?php echo url('assets/images/LOGO_noir.png') ?>" alt="<?php echo $site->title()->html() ?>" class="img-responsive" />
 				<?php endif ?>

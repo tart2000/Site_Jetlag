@@ -29,6 +29,14 @@ h2 {
     margin-bottom: 20px;
     font-size: 26px;
 }
+hr {
+    border-color: black;
+}
+em {
+    color: #C1C1C1; 
+    font-style: normal;
+    font-size: 0.8em;
+}
 .right {
     text-align: right;
 }

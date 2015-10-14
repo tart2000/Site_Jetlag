@@ -16,8 +16,4 @@ Author: montreal
 
 ----
 
-Date: 2015-09-30
-
-----
-
-Coverimage: forrest.jpg
+Hour: 16:00

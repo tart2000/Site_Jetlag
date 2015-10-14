@@ -15,12 +15,11 @@ fields:
       montreal : Montreal 
       mexico : Mexico
     width: 1/2
-  coverimage:
-    label: Cover Image
-    type:  selector
-    mode:  single
-    types:
-      - image
+  hour: 
+    label: Time
+    type: time
+    default: now
+    width: 1/2
   text:
     label: Text
     type: textarea
