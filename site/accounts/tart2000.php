@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - about
   - diaries/day-1/mtl
   - diaries/day-1/interview-with-michelle
   - diaries/day-1
   - how-to
-  - about

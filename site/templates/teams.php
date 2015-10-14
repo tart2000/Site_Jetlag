@@ -8,7 +8,7 @@
 			<?php $counter = 1 ?>
 			<?php foreach ($page->children() as $t) : ?> 
 				<div class="col-xs-6 <?php e($counter == '2','right') ?>">
-					<span class="from">From <?php echo $t->from() ?></span>
+					<span class="from"><?php echo l::get('from') ?> <?php echo $t->from() ?></span>
 					<h2><?php echo $t->title() ?></h2>
 					<?php $thecover = $t->coverimage()->toFile(); ?>
 					<div class="thumb-image">

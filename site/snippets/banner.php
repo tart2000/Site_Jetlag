@@ -31,7 +31,7 @@
 
 		<div class="banner-text">
 			<div class="center">
-				<h1><?php echo $day->title() ?></h1>
+				<h1><?php echo l::get('day') ?> <?php echo $day->num() ?></h1>
 				<p><?php echo date('d/m/Y' , $day->date()) ?></p>
 			</div>
 		</div>

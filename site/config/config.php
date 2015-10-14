@@ -19,6 +19,37 @@ c::set('license', 'put your license key here');
 
 /*
 
+Language configuration 
+
+*/ 
+
+c::set('languages', array(
+  array(
+    'code'    => 'en',
+    'name'    => 'English',
+    'default' => true,
+    'locale'  => 'en_US',
+    'url'     => '/',
+  ),
+  array(
+    'code'    => 'fr',
+    'name'    => 'French',
+    'locale'  => 'fr_FR',
+    'url'     => '/fr',
+  ),
+  array(
+    'code'    =>  'es',
+    'name'    =>  'Spanish',
+    'locale'  =>  'es_ES',
+    'url'     =>  '/es',
+  )
+));
+
+c::set('language.detect', true);
+
+/*
+
+
 ---------------------------------------
 Blogprint Configuration
 ---------------------------------------
@@ -26,9 +57,9 @@ Blogprint Configuration
 */
 
 // pagination
-c::set('pagination-posts', 10);
-c::set('pagination-archive', 30);
-c::set('pagination-search', 30);
+// c::set('pagination-posts', 10);
+// c::set('pagination-archive', 30);
+// c::set('pagination-search', 30);
 
 // reading
 c::set('posts-page', 'blog');
@@ -38,8 +69,8 @@ c::set('excerpt-length', 55); // words
 c::set('categories-page', 'categories');
 
 // comments
-c::set('comments', true);
-c::set('disqus-shortname', 'yourshortname');
+// c::set('comments', true);
+// c::set('disqus-shortname', 'yourshortname');
 
 /*
 
@@ -57,91 +88,4 @@ c::set('markdown.extra', true);
 c::set('home', 'home');
 c::set('debug', 'true');
 
-c::set('routes', array(
-  array(
-    'pattern' => 'category/(:any)',
-    'action'  => function($category) {
 
-      $data = array('category' => $category);
-
-      return array('archive', $data);
-    }
-  ),
-  array(
-    'pattern' => 'author/(:any)',
-    'action'  => function($author) {
-
-      $data = array('author' => $author);
-
-      return array('archive', $data);
-    }
-  ),
-  array(
-    'pattern' => 'tag/(:any)',
-    'action'  => function($tag) {
-
-      $data = array('tag' => $tag);
-
-      return array('archive', $data);
-
-    }
-  ),
-  array(
-    'pattern' => '(:num)/(:num)/(:num)/(:any)',
-    'action'  => function($year, $month, $day, $uid) {
-			$posts_page = c::get('posts-page');
-      $page = page($posts_page.'/' . $uid);
-      if(!$page){
-        $page = site()->errorPage();
-      } else {
-        if(($page->date('Y') != $year)
-            || ($page->date('m') != $month)
-            || ($page->date('d') != $day)) {
-          $page = site()->errorPage();
-        }
-      }
-      return site()->visit($page);
-    }
-  ),
-  array(
-    'pattern' => '(:num)/(:num)/(:num)',
-    'action'  => function($year, $month, $day) {
-
-      if(($year > 0 && $year <= 9999)
-          && ($month > 0 && $month <= 12)
-          && ($day > 0 && $day <= 31)) {
-          $data = array('year'  => $year,
-                        'month' => $month,
-                        'day'   => $day);
-          return array('archive', $data);
-      } else {
-          go('error');
-      }
-    }
-  ),
-  array(
-    'pattern' => '(:num)/(:num)',
-    'action'  => function($year, $month) {
-
-      if(($year > 0 && $year <= 9999)
-          && ($month > 0 && $month <= 12)) {
-          $data = array('year'  => $year,
-                    'month' => $month);
-          return array('archive', $data);
-      } else {
-          go('error');
-      }
-    }
-  ),
-  array(
-    'pattern' => '(:num)',
-    'action'  => function($year) {
-      if($year > 0 && $year <= 9999) {
-        $data = array('year'  => $year);
-        return array('archive', $data);
-      } else {
-        go('error');
-      }
-    }
-  )
-));

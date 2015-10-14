@@ -90,6 +90,11 @@ em {
 	color: black;
 }
 
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: white;
+}
+
+
 .numbers {
     position: absolute;
     top: 70px;

@@ -24,7 +24,7 @@
 	<?php snippet('banner', array('day' => $day)) ?>
 <?php else : ?>
 	<div class="coming">
-		<h1>Coming soon</h1>
+		<h1><?php echo l::get('coming') ?></h1>
 	</div>
 <?php endif ?>
 

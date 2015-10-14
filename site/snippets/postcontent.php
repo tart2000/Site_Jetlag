@@ -1,5 +1,5 @@
 <?php $team = page('teams')->children()->find($uid); ?>
-	<span class="from" style="color:<?php echo $page->thecolor() ?>">From <?php echo $team->from() ?></span></br>
+	<span class="from" style="color:<?php echo $page->thecolor() ?>"><?php echo l::get('from') ?> <?php echo $team->from() ?></span></br>
 	<h2><?php echo $team->title() ?></h2>
 	<?php $thecover = $team->coverimage()->toFile(); ?>
 	<div class="thumb-image">
