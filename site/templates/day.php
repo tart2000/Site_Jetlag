@@ -17,6 +17,11 @@
 			<?php snippet('postcontent', array('day'=>$day, 'uid'=>'mexico')) ?>
 		</div> <!-- second column -->
 	</div> <!-- row -->
+	<div class="row mt">
+		<div class="col-xs-2 col-xs-offset-5">
+			<?php echo shariff_buttons() ?>
+		</div>
+	</div>
 </div> <!-- // container -->
 
 <?php if ($page->hasNextVisible()) : ?>

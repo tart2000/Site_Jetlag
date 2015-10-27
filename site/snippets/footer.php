@@ -30,6 +30,7 @@
 
     <?php echo js('assets/js/vendor/bootstrap.min.js'); ?>
     <?php echo js('assets/js/main.js'); ?>
+    <?php echo js(shariff_js()) ?>
 
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

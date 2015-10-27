@@ -54,6 +54,12 @@ em {
     max-height: 100%;
 }
 
+.shariff {
+    width: 100%;
+}
+.shariff-buttons  {
+    max-width: 200px;
+}
 
 /* Nav */
 

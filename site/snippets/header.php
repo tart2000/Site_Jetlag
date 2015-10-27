@@ -12,11 +12,14 @@
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
+  <?php snippet('social-metas') ?>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="icon" type="image/x-icon" href="<?php echo $site->url() ?>/assets/images/favicon.ico">
 
   <?php echo css('assets/css/bootstrap.min.css') ?>
+  <?php echo css(shariff_css()) ?>
   <?php echo css('assets/css/main.css') ?>
+  
   
   <?php echo js('assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js') ?>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
