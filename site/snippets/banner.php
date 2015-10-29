@@ -7,9 +7,6 @@
 			<?php $thecover = $day->mtlcover()->toFile(); ?>
 			<div class="banner" style="background-color:<?php echo $day->thecolor() ?>; background-image:url(<?php echo $thecover->url() ?>)">
 			</div>
-		<?php elseif ($day->hasImages()) : ?>
-			<div class="banner" style="background-color:<?php echo $day->thecolor() ?>; background-image:url(<?php echo $d->images()->first()->url() ?>)">
-			</div>
 		<?php else : ?>
 			<div class="banner" style="background-color:<?php echo $day->thecolor() ?>; background-image:url(<?php echo $site->url() ?>/assets/images/default.jpg)">
 			</div>
@@ -19,9 +16,6 @@
 		<?php if ($day->mxcover() != '') : ?>
 			<?php $thecover = $day->mxcover()->toFile(); ?>
 			<div class="banner second" style="background-color:<?php echo $day->thecolor() ?>; background-image:url(<?php echo $thecover->url() ?>)">
-			</div>
-		<?php elseif ($day->hasImages()) : ?>
-			<div class="banner second" style="background-color:<?php echo $day->thecolor() ?>; background-image:url(<?php echo $d->images()->first()->url() ?>)">
 			</div>
 		<?php else : ?>
 			<div class="banner second" style="background-color:<?php echo $day->thecolor() ?>; background-image:url(<?php echo $site->url() ?>/assets/images/default.jpg)">

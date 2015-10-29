@@ -15,7 +15,7 @@
 						<?php endforeach ?>
 					</div>
 					<div class="col-sm-6 text-right">
-						<p>A project by <a href="http://technoculture.club" target="_blank">Techno Culture Club</a></p>
+						<p>A project by <a href="http://technoculture.club" target="_blank">Techno Culture Club</a> + <a href="http://www.sietemedia.com.mx/" target="_blank">Siete Media</a></p>
 						<p>Design by <a href="http://www.glasgowstudio.com/" target="_blank">Glasgow Studio</a></p>
 					</div>
 				</div>
